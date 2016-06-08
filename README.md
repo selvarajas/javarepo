@@ -16,7 +16,7 @@ or Run maven goal >> mvn:generated-soruces
 5. run maven clean through eclipse
 6. run maven install through eclipse
 7. On eclipse, select the pom.xml file >> run as >> maven build.. >> enter goals "jaxws:wsimport" >> click "Run"
-
+7. For security reason, the xxxx, yyyy arepart of package, CCCC=prefix of the project and yyyy=
 [INFO] Scanning for projects...
 [WARNING] 
 [WARNING] Some problems were encountered while building the effective model for com.xxxx.wsdl.client.tutorial:xxxx-wsdl-client-tutorial:jar:0.0.1-SNAPSHOT
@@ -45,57 +45,57 @@ parsing WSDL...
 
 Generating code...
 
-com\agimatec\publicinterfaces\service\BoxSize.java
-com\agimatec\publicinterfaces\service\CallerInfo.java
-com\agimatec\publicinterfaces\service\CancelReservation.java
-com\agimatec\publicinterfaces\service\CancelReservationResponse.java
-com\agimatec\publicinterfaces\service\ComfortZone.java
-com\agimatec\publicinterfaces\service\DeviceType.java
-com\agimatec\publicinterfaces\service\DtAddress.java
-com\agimatec\publicinterfaces\service\DtAvailableBoxes.java
-com\agimatec\publicinterfaces\service\DtBox.java
-com\agimatec\publicinterfaces\service\DtBoxGroup.java
-com\agimatec\publicinterfaces\service\DtDeliveryMachine.java
-com\agimatec\publicinterfaces\service\DtDevice.java
-com\agimatec\publicinterfaces\service\DtMachineAddress.java
-com\agimatec\publicinterfaces\service\DtMachineBoxesOverview.java
-com\agimatec\publicinterfaces\service\DtMachineProperty.java
-com\agimatec\publicinterfaces\service\DtReservation.java
-com\agimatec\publicinterfaces\service\DtTag.java
-com\agimatec\publicinterfaces\service\GetAllMachines.java
-com\agimatec\publicinterfaces\service\GetAllMachinesResponse.java
-com\agimatec\publicinterfaces\service\GetAvailableBoxSizes.java
-com\agimatec\publicinterfaces\service\GetAvailableBoxSizesResponse.java
-com\agimatec\publicinterfaces\service\GetAvailableFreeBoxesForMachine.java
-com\agimatec\publicinterfaces\service\GetAvailableFreeBoxesForMachineResponse.java
-com\agimatec\publicinterfaces\service\GetAvailableProductCodes.java
-com\agimatec\publicinterfaces\service\GetAvailableProductCodesResponse.java
-com\agimatec\publicinterfaces\service\GetAvailableTags.java
-com\agimatec\publicinterfaces\service\GetAvailableTagsResponse.java
-com\agimatec\publicinterfaces\service\GetCurrentMachineBoxesOverview.java
-com\agimatec\publicinterfaces\service\GetCurrentMachineBoxesOverviewResponse.java
-com\agimatec\publicinterfaces\service\GetCurrentMachineBoxesState.java
-com\agimatec\publicinterfaces\service\GetCurrentMachineBoxesStateResponse.java
-com\agimatec\publicinterfaces\service\GetMachineDetails.java
-com\agimatec\publicinterfaces\service\GetMachineDetailsResponse.java
-com\agimatec\publicinterfaces\service\GetMachineDetailsWithTagAndLifecycleStatus.java
-com\agimatec\publicinterfaces\service\GetMachineDetailsWithTagAndLifecycleStatusResponse.java
-com\agimatec\publicinterfaces\service\GetMachinesWithTag.java
-com\agimatec\publicinterfaces\service\GetMachinesWithTagResponse.java
-com\agimatec\publicinterfaces\service\MachineConstructionType.java
-com\agimatec\publicinterfaces\service\MachineLifecycleStatus.java
-com\agimatec\publicinterfaces\service\MachineLocationType.java
-com\agimatec\publicinterfaces\service\ObjectFactory.java
-com\agimatec\publicinterfaces\service\PublicServiceException.java
-com\agimatec\publicinterfaces\service\PublicServiceException_Exception.java
-com\agimatec\publicinterfaces\service\ReservationServiceException.java
-com\agimatec\publicinterfaces\service\ReservationServiceException_Exception.java
-com\agimatec\publicinterfaces\service\ReserveCompartment.java
-com\agimatec\publicinterfaces\service\ReserveCompartmentResponse.java
-com\agimatec\publicinterfaces\service\TagType.java
-com\agimatec\publicinterfaces\service\WSReservationService.java
-com\agimatec\publicinterfaces\service\WSReservationService_Service.java
-com\agimatec\publicinterfaces\service\package-info.java
+com\yyyy\publicinterfaces\service\BoxSize.java
+com\yyyy\publicinterfaces\service\CallerInfo.java
+com\yyyy\publicinterfaces\service\CancelReservation.java
+com\yyyy\publicinterfaces\service\CancelReservationResponse.java
+com\yyyy\publicinterfaces\service\ComfortZone.java
+com\yyyy\publicinterfaces\service\DeviceType.java
+com\yyyy\publicinterfaces\service\DtAddress.java
+com\yyyy\publicinterfaces\service\DtAvailableBoxes.java
+com\yyyy\publicinterfaces\service\DtBox.java
+com\yyyy\publicinterfaces\service\DtBoxGroup.java
+com\yyyy\publicinterfaces\service\DtDeliveryMachine.java
+com\yyyy\publicinterfaces\service\DtDevice.java
+com\yyyy\publicinterfaces\service\DtMachineAddress.java
+com\yyyy\publicinterfaces\service\DtMachineBoxesOverview.java
+com\yyyy\publicinterfaces\service\DtMachineProperty.java
+com\yyyy\publicinterfaces\service\DtReservation.java
+com\yyyy\publicinterfaces\service\DtTag.java
+com\yyyy\publicinterfaces\service\GetAllMachines.java
+com\yyyy\publicinterfaces\service\GetAllMachinesResponse.java
+com\yyyy\publicinterfaces\service\GetAvailableBoxSizes.java
+com\yyyy\publicinterfaces\service\GetAvailableBoxSizesResponse.java
+com\yyyy\publicinterfaces\service\GetAvailableFreeBoxesForMachine.java
+com\yyyy\publicinterfaces\service\GetAvailableFreeBoxesForMachineResponse.java
+com\yyyy\publicinterfaces\service\GetAvailableProductCodes.java
+com\yyyy\publicinterfaces\service\GetAvailableProductCodesResponse.java
+com\yyyy\publicinterfaces\service\GetAvailableTags.java
+com\yyyy\publicinterfaces\service\GetAvailableTagsResponse.java
+com\yyyy\publicinterfaces\service\GetCurrentMachineBoxesOverview.java
+com\yyyy\publicinterfaces\service\GetCurrentMachineBoxesOverviewResponse.java
+com\yyyy\publicinterfaces\service\GetCurrentMachineBoxesState.java
+com\yyyy\publicinterfaces\service\GetCurrentMachineBoxesStateResponse.java
+com\yyyy\publicinterfaces\service\GetMachineDetails.java
+com\yyyy\publicinterfaces\service\GetMachineDetailsResponse.java
+com\yyyy\publicinterfaces\service\GetMachineDetailsWithTagAndLifecycleStatus.java
+com\yyyy\publicinterfaces\service\GetMachineDetailsWithTagAndLifecycleStatusResponse.java
+com\yyyy\publicinterfaces\service\GetMachinesWithTag.java
+com\yyyy\publicinterfaces\service\GetMachinesWithTagResponse.java
+com\yyyy\publicinterfaces\service\MachineConstructionType.java
+com\yyyy\publicinterfaces\service\MachineLifecycleStatus.java
+com\yyyy\publicinterfaces\service\MachineLocationType.java
+com\yyyy\publicinterfaces\service\ObjectFactory.java
+com\yyyy\publicinterfaces\service\PublicServiceException.java
+com\yyyy\publicinterfaces\service\PublicServiceException_Exception.java
+com\yyyy\publicinterfaces\service\ReservationServiceException.java
+com\yyyy\publicinterfaces\service\ReservationServiceException_Exception.java
+com\yyyy\publicinterfaces\service\ReserveCompartment.java
+com\yyyy\publicinterfaces\service\ReserveCompartmentResponse.java
+com\yyyy\publicinterfaces\service\TagType.java
+com\yyyy\publicinterfaces\service\WSReservationService.java
+com\yyyy\publicinterfaces\service\WSReservationService_Service.java
+com\yyyy\publicinterfaces\service\package-info.java
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------

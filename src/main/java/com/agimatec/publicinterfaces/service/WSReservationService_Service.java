@@ -17,7 +17,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "WSReservationService", targetNamespace = "http://service.publicinterfaces.agimatec.com", wsdlLocation = "file:/D:/workspace-solr/born-wsdl-client-tutorial/src/wsdl/WSReservationService.wsdl")
+@WebServiceClient(name = "WSReservationService", targetNamespace = "http://service.publicinterfaces.agimatec.com", wsdlLocation = "file:/D:/users/savarimuthu.s/git/javarepo/src/wsdl/WSReservationService.wsdl")
 public class WSReservationService_Service
     extends Service
 {
@@ -30,7 +30,7 @@ public class WSReservationService_Service
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("file:/D:/workspace-solr/born-wsdl-client-tutorial/src/wsdl/WSReservationService.wsdl");
+            url = new URL("file:/D:/users/savarimuthu.s/git/javarepo/src/wsdl/WSReservationService.wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }
